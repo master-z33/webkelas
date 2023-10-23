@@ -1,0 +1,922 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="dxwFTpAdAACQ_3yMZuYO0LB702tqXc-5FtdWGiQ6mcY" />
+
+  <title>X MIPA 6</title>
+  <!-- HTML -->
+
+  <!-- Custom Styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<style>
+@import url('https://fonts.cdnfonts.com/css/roboto');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Medium', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(#FF8008, #FFFDE9);
+  color: white;
+  transition: background-color 1s;
+  background-attachment: fixed;
+
+}
+
+a.navbar-brand {
+  margin: 0 auto;
+  margin-left: 88px;
+}
+
+#good {
+  font-size: 12px;
+  color: #F1F1F1;
+  margin-left: 20px;
+}
+
+.Hi_makhluk {
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.pencarian input {
+  background-image: url("https://base.xtkj3phi.repl.co/search.png");
+  background-size: 20px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  margin-left: 20px;
+  background-color: whitesmoke;
+  width: 89%;
+  height: 40px;
+  border-radius: 35px;
+  margin-top: 1em;
+  border: none;
+}
+
+.Welcome {
+  color: white;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  background-image: url("https://base.xtkj3phi.repl.co/laptop.png");
+  background-repeat: no-repeat;
+  background-size: 7em;
+  background-position: right;
+}
+
+.bawah_welcome {
+  color: #F1F1F1;
+}
+
+
+.box_project {
+  margin-top: 10px;
+  color: floralwhite;
+  font-size: 10px;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding: 1.3em;
+  text-align: left;
+  width: 40%;
+  border: 0.3px solid whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-image: linear-gradient(to left top, #FCEABB, #F8B500);
+  border-radius: 25px;
+}
+
+.gambar_buku {
+  margin-top: 0.5em;
+  margin-left: 5px;
+  margin-right: 10%;
+  position: relative;
+}
+
+.this_week {
+  color: white;
+  margin-top: 5px;
+  margin-right: 8px;
+}
+
+
+#tugas_button {
+  width: 4em;
+  font-size: 1em;
+  margin-top: 0.4em;
+  color: white;
+  background-color: darkorange;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.atur_box {
+  display: inline-flex;
+}
+
+.box_project span {
+  position: absolute;
+  margin-top: 1em;
+  margin-left: -1.4em;
+}
+
+.box_project b {
+  text-align: left
+}
+
+.text_icon {
+  font-size: 5px;
+}
+
+#navbar_bottom {
+  width: 100%;
+  height: 50px;
+  bottom: 0;
+  -webkit-box-shadow: 0px -3px 15px -7px rgba(0, 0, 0, 0.46);
+  box-shadow: 0px -3px 15px -7px rgba(0, 0, 0, 0.46);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.navbar i {
+  font-size: 22px;
+  text-align: right;
+  color: black; 
+}
+
+.tarik {
+  color: black;
+  -webkit-box-shadow: 0px -3px 15px -7px rgba(0, 0, 0, 0.46);
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  background-color: whitesmoke;
+  box-shadow: rgba(0, 0, 0, 0.23) 0px -3px 6px;
+}
+
+.garis_tarik {
+  background-color: dimgrey;
+  width: 84px;
+  height: 9px;
+  border-radius: 50px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.Senin,
+.Selasa,
+.Rabu,
+.Kamis,
+.Jumat {
+  text-align: center;
+  margin-left: 20px;
+  color: white;
+  background: linear-gradient(#FBC10E, orange);
+  width: 70px;
+  border-radius: 20px;
+}
+
+.mapel {
+  margin-left: -11px;
+  margin-right: 20px;
+  background-color: ghostwhite;
+  font-size: 15px;
+  padding: 15px;
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 30px;
+  width: auto;
+  height: 120px;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.tarik h4 {
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  color: white;
+  text-align: center;
+  width: 200px;
+  margin: 20px auto;
+  background: linear-gradient(#FACB00, #FEDF5B);
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+#Buttonj {
+  border-radius: 20px;
+  background: linear-gradient(orange, #FFE70596);
+  color: white;
+  border: none;
+  text-align: center;
+}
+
+#input {
+  background-size: 20px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  margin-top: 0.7em;
+  width: 18em;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  gap: 1rem;
+}
+
+#input:nth-child(1) {
+  background: url("https://base.xtkj3phi.repl.co/user-solid.svg");
+  background-size: 20px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-color: wheat;
+}
+
+#input:nth-child(2) {
+  background: url("https://base.xtkj3phi.repl.co/paper-plane-regular.svg");
+  background-size: 20px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-color: wheat;
+}
+
+#input:nth-child(3) {
+  background: url("https://base.xtkj3phi.repl.co/envelope-open-text-solid.svg");
+  background-size: 20px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-color: wheat;
+}
+
+.buttonSubmit {
+  position: relative;
+  margin-right: 12em;
+  width: 83px;
+  height: 38px;
+  margin-top: 15px;
+  font-size: 17px;
+  background-color: #FED049;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: width .5s, border-radius .5s;
+}
+
+.buttonSubmit * {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity .25s;
+}
+
+#iconv {
+  opacity: 0;
+}
+
+.buttonSubmit:focus {
+  width: 80px;
+  background-color: yellow;
+  border-radius: 6px;
+}
+
+.buttonSubmit:focus .text {
+  opacity: 0;
+}
+
+.buttonSubmit:focus #iconv {
+  opacity: 1;
+  transition: height .5s;
+}
+
+.menfess {
+  background: linear-gradient(-45deg, #F4C183, #F4B446);
+  
+}
+
+#quote {
+  font-size: 2rem;
+  margin-left: 10px;
+  color: white;
+  margin-top: 10px;
+}
+
+#quoteright {
+  font-size: 2rem;
+  float: right;
+  color: white;
+  margin-right: 10px;
+}
+
+.dropdown {
+  display: inline;
+}
+
+
+
+@media screen and (min-width:1024px) {
+  a.navbar-brand {
+    text-align: center;
+  }
+
+  .buttonSubmit {
+    margin-right: 42em;
+  }
+
+  #input {
+    width: 50rem;
+  }
+
+}
+</style>
+<body>
+  <nav class="navbar sticky-top bg-light" id="navbar_top">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#"></a>
+      
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tarik">Jadwal Pelajaran</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#judul3">Jadwal Piket</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#selasa">Info Tugas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menfess">Menfess</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <br>
+  <center>
+    <div class="Hi_makhluk">X MIPA 6</div></center>
+  </div>
+  <div id="good" ></div>
+  <form id=”form1″ name=”form1″ method=”post” action="sec.html">
+    <div class="pencarian"><input type="text" name="pencarian" placeholder="Search..."></div>
+  </form>
+
+  <div class="Welcome" id="Welc">Welcome
+    <br>
+    <div class="bawah_welcome" id="bwh_wlc">
+      Let's check your
+      schedule<br> And assignments</div>
+  </div>
+  <br>
+    <nav class="navbar navbar-light bg-light border-top bg-info navbar-expand fixed-bottom" id="navbar_bottom">
+      <ul class="navbar-nav nav-justified w-100">
+        <li class="nav-item">
+          <a href="#" class="nav-link"><i class="fa-solid fa-house"></i><br>
+            <div class="text_icon">Home</div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#tarik" class="nav-link"><i class="fa-solid fa-calendar-days"></i><br>
+            <div class="text_icon">Schedule</div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#senin" class="nav-link"><i class="fa-solid fa-list-check"></i><br>
+            <div class="text_icon">MyTask</div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#menfess" class="nav-link">
+            <i class="fa-solid fa-envelope-open-text"></i><br>
+            <div class="text_icon">Menfess</div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  <div class="tarik" id="tarik">
+    <br>
+    <div class="garis_tarik"></div>
+
+    <h4 style="margin: 1em auto 1em; width: 10em; " id="judul1" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="5">Jadwal Pelajaran</h4>
+
+    <ul data-aos="fade-up" data-aos-duration="1000" data-aos-offset="15">
+      <div class="Senin" id="judul2"> SENIN</div>
+      <div class="mapel">
+<li>Matematika Wajib</li>
+<li>Bahasa Inggris</li>
+<li>Biologi</li>
+<li>Ekonomi</li>
+      </div>
+    </ul>
+
+<div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="40">
+    <ul>
+      <div class="Selasa" id="judul3">SELASA</div>
+      <div class="mapel">
+<li>Biologi</li>
+<li>PKWU</li>
+<li>Fisika</li>
+<li>Kimia</li>
+      </div>
+    </ul>
+    </div>
+
+
+    <ul data-aos="fade-up" data-aos-duration="1000" data-aos-offset="30">
+      <div class="Rabu" id="judul4">RABU</div>
+      <div class="mapel">
+<li>PJOK</li>
+<li>Matematika Minat</li>
+<li>Sejarah Indonesia Minat</li>
+<li>Bahasa Indonesia</li>
+      </div>
+    </ul>
+  
+
+    <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="25">
+      <ul>
+        <div class="Kamis" id="judul5">KAMIS</div>
+        <div class="mapel" style="height: 135px">
+<li>Seni Budaya</li>
+<li>Matematika Wajib</li>
+<li>Sejarah Indonesia Wajib</li>
+<li>T.Informatika</li>
+<li>PAI</li>
+        </div>
+      </ul>
+    </div>
+
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="25">
+        <ul>
+          <div class="Jumat" id="judul6">JUMAT</div>
+          <div class="mapel">
+<li>Bimbingan konseling</li>
+<li>Bahasa sunda</li>
+<li>PKN</li>
+<li>Bahasa Indonesia</li>
+          </div>
+        </ul>
+        <hr>
+      </div>
+    
+
+    <h4 id="judul7" data-aos="fade-up" data-aos-duration="800" data-aos-offset="20">Jadwal Piket</h4>
+    <center>
+      <div class="dropdown">
+        <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="Buttonj" data-aos="fade-up" data-aos-duration="600" data-aos-offset="25">
+          <span id="senin">Senin</span>
+        </button>
+
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">1. Abdul hanan</li>
+          <li class="dropdown-item">2. Alfan Mufadil</li>
+          <li class="dropdown-item">3. Ariska</li>
+          <li class="dropdown-item">4. arvil</li>
+          <li class="dropdown-item">5. Fitri</li>
+          <li class="dropdown-item">6. Fera</li>
+                    <li class="dropdown-item">7. Gita</li>
+        </ul>
+      </div>
+
+
+      <div class="dropdown">
+        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="Buttonj" data-aos="fade-up" data-aos-duration="600" data-aos-offset="25">
+          <span id="selasa">Selasa</span>
+        </button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">1. Diaz</li>
+          <li class="dropdown-item">2. Fuji Ayu</li>
+          <li class="dropdown-item">3. Janah</li>
+          <li class="dropdown-item">4. kamila</li>
+          <li class="dropdown-item">5. haifa</li>
+          <li class="dropdown-item">6. Moh Zaeni Sahrudin</li>
+        </ul>
+      </div>
+      <br><br>
+
+      <div class="dropdown">
+        <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="Buttonj" data-aos="fade-up" data-aos-duration="900" data-aos-offset="25">
+          <span id="rabu">Rabu</span>
+        </button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">1. M.Nandana</li>
+          <li class="dropdown-item">2. kinanti</li>
+          <li class="dropdown-item">3. Nabila</li>
+          <li class="dropdown-item">4. Davin</li>
+          <li class="dropdown-item">5. Lintang</li>
+          <li class="dropdown-item">6. Nurwindah</li>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="Buttonj" data-aos="fade-up" data-aos-duration="1100" data-aos-offset="25">
+          <span id="kamis">Kamis</span>
+        </button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">1. Nawfal</li>
+          <li class="dropdown-item">2. Pelangi</li>
+          <li class="dropdown-item">3. Reva Alimah</li>
+          <li class="dropdown-item">4. Refani</li>
+          <li class="dropdown-item">5. Rahmat</li>
+          <li class="dropdown-item">6. Riska</li>
+          <li class="dropdown-item">7. Silma</li>
+        </ul>
+      </div>
+
+      <div class="dropdown">
+        <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="Buttonj" data-aos="fade-up" data-aos-duration="900" data-aos-offset="25">
+          <span id="jumat">Jumat</span>
+        </button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">1. Raihan</li>
+          <li class="dropdown-item">2. Silvia</li>
+          <li class="dropdown-item">3. Tahta</li>
+          <li class="dropdown-item">4. Rifa</li>
+          <li class="dropdown-item">5. susan</li>
+          <li class="dropdown-item">6. Tiara</li>
+          <li class="dropdown-item">7. Tirani</li>
+                    <li class="dropdown-item">8. Mellody</li>
+        </ul>
+      </div>
+    </center>
+
+
+    <hr>
+    <h4 id="judul8" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="25">Tugas</h4>
+    <center>
+
+<div class="atur_box">
+        <div class="box_project" id="box5" data-aos="fade-up" data-aos-duration="800" data-aos-offset="25"><b>PAI : </b><br>
+          <div class="this_week">
+            This Week's assignment
+            <button onclick="Alert()" id="tugas_button">
+              click
+            </button>
+          </div>
+        </div>
+
+        <div class="box_project" id="box6" data-aos="fade-up" data-aos-duration="800" data-aos-offset="25"><b>PJOK : </b><br>
+          <div class="this_week">
+            This Week's assignment
+            <button onclick="Alert()" id="tugas_button">
+              click
+            </button>
+          </div>
+        </div>
+      </div>
+<div class="atur_box">
+        <div class="box_project" id="box7" data-aos="fade-up" data-aos-duration="800" data-aos-offset="25"><b>Matematika Minat: </b><br>
+          <div class="this_week">
+            This Week's assignment
+            <button onclick="Alert()" id="tugas_button">
+              click
+            </button>
+          </div>
+        </div>
+
+        <div class="box_project" id="box8" data-aos="fade-up" data-aos-duration="800" data-aos-offset="25"><b>Matematika Wajib: </b><br>
+          <div class="this_week">
+            This Week's assignment
+            <button onclick="Alert()" id="tugas_button">
+              click
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="atur_box">
+        <div class="box_project" id="box4" data-aos="fade-up" data-aos-duration="800" data-aos-offset="25"><b>Kimia : </b><br>
+          <div class="this_week">
+            This Week's assignment
+            <button onclick="Alert()" id="tugas_button">
+              click
+            </button>
+          </div>
+        </div>
+
+        <div class="box_project" id="box4" data-aos="fade-up" data-aos-duration="800" data-aos-offset="25"><b>Fisika : </b><br>
+          <div class="this_week">
+            This Week's assignment
+            <button onclick="Alert()" id="tugas_button">
+              click
+            </button>
+          </div>
+        </div>
+      </div>
+<div class="atur_box">
+        <div class="box_project" id="box4" data-aos="fade-up" data-aos-duration="800" data-aos-offset="25"><b>Sejarah indonesia Minat: </b><br>
+          <div class="this_week">
+            This Week's assignment
+            <button onclick="Alert()" id="tugas_button">
+              click
+            </button>
+          </div>
+        </div>
+
+        <div class="box_project" id="box4" data-aos="fade-up" data-aos-duration="800" data-aos-offset="25"><b>Sejarah Indonesia wajib : </b><br>
+          <div class="this_week">
+            This Week's assignment
+            <button onclick="Alert()" id="tugas_button">
+              click
+            </button>
+          </div>
+        </div>
+      </div>
+    <div class="atur_box">
+        <div class="box_project" id="box4" data-aos="fade-up" data-aos-duration="800" data-aos-offset="25"><b>Bahasa Inggris : </b><br>
+          <div class="this_week">
+            This Week's assignment
+            <button onclick="Alert()" id="tugas_button">
+              click
+            </button>
+          </div>
+        </div>
+
+        <div class="box_project" id="box4" data-aos="fade-up" data-aos-duration="800" data-aos-offset="25"><b>PKWU : </b><br>
+          <div class="this_week">
+            This Week's assignment
+            <button onclick="Alert()" id="tugas_button">
+              click
+            </button>
+          </div>
+        </div>
+      </div>
+<div class="atur_box">
+        <div class="box_project" id="box4" data-aos="fade-up" data-aos-duration="800" data-aos-offset="25"><b>Biologi : </b><br>
+          <div class="this_week">
+            This Week's assignment
+            <button onclick="Alert()" id="tugas_button">
+              click
+            </button>
+          </div>
+        </div>
+
+        <div class="box_project" id="box4" data-aos="fade-up" data-aos-duration="800" data-aos-offset="25"><b>T.INFORMATIKA : </b><br>
+          <div class="this_week">
+            This Week's assignment
+            <button onclick="Alert()" id="tugas_button">
+              click
+            </button>
+          </div>
+        </div>
+      </div>
+    <div class="atur_box">
+        <div class="box_project" id="box4" data-aos="fade-up" data-aos-duration="800" data-aos-offset="25"><b>Bahasa Sunda : </b><br>
+          <div class="this_week">
+            This Week's assignment
+            <button onclick="Alert()" id="tugas_button">
+              click
+            </button>
+          </div>
+        </div>
+
+        <div class="box_project" id="box4" data-aos="fade-up" data-aos-duration="800" data-aos-offset="25"><b>Seni Budaya : </b><br>
+          <div class="this_week">
+            This Week's assignment
+            <button onclick="Alert()" id="tugas_button">
+              click
+            </button>
+          </div>
+        </div>
+      </div>
+<div class="atur_box">
+        <div class="box_project" id="box4" data-aos="fade-up" data-aos-duration="800" data-aos-offset="25"><b>Ekonomi : </b><br>
+          <div class="this_week">
+            This Week's assignment
+            <button onclick="Alert()" id="tugas_button">
+              click
+            </button>
+          </div>
+        </div>
+
+        <div class="box_project" id="box4" data-aos="fade-up" data-aos-duration="800" data-aos-offset="25"><b>Bahasa Indonesia : </b><br>
+          <div class="this_week">
+            This Week's assignment
+            <button onclick="Alert()" id="tugas_button">
+              click
+            </button>
+          </div>
+        </div>
+      </div>
+    </center>
+<br>
+
+
+    <div class="menfess" id="menfess">
+      <i class="fa-solid fa-quote-left" id="quote"></i>
+      <h4 data-aos="fade-up" data-aos-duration="1000" data-aos-offset="25" id="judul9">Menfess</h4>
+
+      <form action="https://formsubmit.co/cff3eb1f5796c63b80ab241304c19602" method="POST">
+        <center>
+          <input type="text" name="From:" placeholder="From :" required id="input" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="25">
+          <input type="text" name="To:" required id="input" placeholder="To :" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="25">
+          <textarea placeholder="Pesan :" type="text" name="Pesan:" required id="input" data-aos="fade-up" data-aos-duration="1000" data-aos-offset="25"></textarea>
+          <button class="buttonSubmit" type="submit" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="25">
+            <span class="text" id="submit">Submit</span>
+            
+          </button>
+        </center>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+      </form>
+
+      <i class="fa-solid fa-quote-right" id="quoteright"></i>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+    </div>
+  </div>
+  
+
+  <!-- Project -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script>
+  const date = new Date();
+const hours = date.getHours();
+if (hours >= 1 && hours < 12) {
+  document.getElementById("good").innerHTML = "Good Morning";
+}
+if (hours >= 12  && hours < 18) {
+  document.getElementById("good").innerHTML = "Good Afternoon";
+}
+if (hours >= 18 && hours < 24) {
+  document.getElementById("good").innerHTML = "Good evening";
+}
+
+const toggle = document.getElementById('toggleDark');
+const body = document.querySelector('body');
+const menfess = document.getElementById('menfess');
+const judul1 = document.getElementById('judul1');
+const judul2 = document.getElementById('judul2');
+const judul3 = document.getElementById('judul3');
+const judul4 = document.getElementById('judul4');
+const judul5 = document.getElementById('judul5');
+const judul6 = document.getElementById('judul6');
+const judul7 = document.getElementById('judul7');
+const judul8 = document.getElementById('judul8');
+const judul9 = document.getElementById('judul9');
+const jadwal_piket1 = document.getElementById("senin");
+const jadwal_piket2 = document.getElementById("selasa");
+const jadwal_piket3 = document.getElementById("rabu");
+const jadwal_piket4 = document.getElementById("kamis");
+const jadwal_piket5 = document.getElementById("jumat");
+const tugas = document.getElementById('tugas');
+const box1 = document.getElementById('box1');
+const box2 = document.getElementById('box2');
+const box3 = document.getElementById('box3');
+const box4 = document.getElementById('box4');
+const quote = document.getElementById('quote');
+const quoteright = document.getElementById('quoteright');
+const navbar_bottom = document.getElementById('navbar_bottom');
+const bwh_wlc = document.getElementById('bwh_wlc');
+const good = document.getElementById('good');
+
+
+
+toggle.addEventListener('click', function() {
+  this.classList.toggle('bi-brightness-high-fill');
+  if (this.classList.toggle('bi-moon')) {
+    body.style.backgroundImage = "linear-gradient(#FF8008,#FFFDE9 )";
+    body.style.color = 'white';
+    body.style.transition = '2s';
+    document.getElementById('tarik').style.opacity = '97%';
+    document.getElementById('Welc').style.boxShadow = 'rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px';
+    document.getElementById('tarik').style.backgroundImage = "linear-gradient(whitesmoke,white)";
+    document.getElementById('tarik').style.filter = 'invert(0)';
+    document.getElementById("menfess").style.backgroundImage = 'linear-gradient(-45deg,#F4C183,#F4B446)';
+    document.getElementById('box1').style.backgroundImage = "linear-gradient(to left top, #FCEABB, #F8B500)";
+    document.getElementById('box2').style.backgroundImage = "linear-gradient(to left top, #FCEABB, #F8B500)";
+    document.getElementById('box3').style.backgroundImage = "linear-gradient(to left top, #FCEABB, #F8B500)";
+    document.getElementById('box4').style.backgroundImage = "linear-gradient(to left top, #FCEABB, #F8B500)";
+    document.getElementById('navbar_top').style.filter = 'invert(0)';
+    navbar_bottom.style.filter = 'invert(0)';
+    document.getElementById('submit').style.color = 'white';
+    jadwal_piket1.style.color = 'white';
+    jadwal_piket2.style.color = 'white';
+    jadwal_piket3.style.color = 'white';
+    jadwal_piket4.style.color = 'white';
+    jadwal_piket5.style.color = 'white';
+    judul1.style.color = 'white';
+    judul2.style.color = 'white';
+    judul3.style.color = 'white';
+    judul4.style.color = 'white';
+    judul5.style.color = 'white';
+    judul6.style.color = 'white';
+    judul7.style.color = 'white';
+    judul8.style.color = 'white';
+    judul9.style.color = 'white';
+    quoteright.style.color = 'white';
+    quote.style.color = 'white';
+    box1.style.filter = 'invert(0)';
+    box2.style.filter = 'invert(0)';
+    box3.style.filter = 'invert(0)';
+    box4.style.filter = 'invert(0)';
+    bwh_wlc.style.opacity = '97%';
+    good.style.opacity = '98%';
+    document.getElementById('navbar_top').style.opacity = '95%';
+
+
+  } else {
+    body.style.backgroundImage = "linear-gradient(black, purple)";
+    body.style.color = 'white';
+    body.style.transition = '2s';
+    document.getElementById('tarik').style.opacity = '87%';
+    document.getElementById('Welc').style.boxShadow = '#E6E6E6 0px 10px 20px, #E6E6E6 0px 6px 6px';
+    document.getElementById('tarik').style.backgroundImage = "linear-gradient(whitesmoke,#f8b500)";
+    document.getElementById('tarik').style.color = 'black';
+    jadwal_piket1.style.color = 'red';
+    jadwal_piket2.style.color = 'red';
+    jadwal_piket3.style.color = 'red';
+    jadwal_piket4.style.color = 'red';
+    jadwal_piket5.style.color = 'red';
+    box1.style.filter = 'invert()';
+    box2.style.filter = 'invert()';
+    box3.style.filter = 'invert()';
+    box4.style.filter = 'invert()';
+    document.getElementById('submit').style.color = 'black';
+    document.getElementById('tarik').style.filter = 'invert(1)';
+    judul1.style.color = 'black';
+    judul2.style.color = 'red';
+    judul3.style.color = 'red';
+    judul4.style.color = 'red';
+    judul5.style.color = 'red';
+    judul6.style.color = 'red';
+    judul7.style.color = 'black';
+    judul8.style.color = 'black';
+    judul9.style.color = 'black';
+    quoteright.style.color = 'black';
+    quote.style.color = 'black';
+    bwh_wlc.style.opacity = '80%';
+    good.style.opacity = '80%';
+    document.getElementById('navbar_top').style.filter = 'invert(1)';
+    document.getElementById('navbar_top').style.opacity = '95%';
+    navbar_bottom.style.filter = 'invert(1)';
+    navbar_bottom.style.boxShadow = '0px -3px 5px -3px black';
+    document.getElementById('box1').style.backgroundImage = "linear-gradient(to left top,rgba(0, 183, 255, 1), rgba(10, 123, 232, 1))";
+    document.getElementById('box2').style.backgroundImage = "linear-gradient(to left top,rgba(0, 183, 255, 1), rgba(10, 123, 232, 1))";
+    document.getElementById('box3').style.backgroundImage = "linear-gradient(to left top,rgba(0, 183, 255, 1), rgba(10, 123, 232, 1))";
+    document.getElementById('box4').style.backgroundImage = "linear-gradient(to left top,rgba(0, 183, 255, 1), rgba(10, 123, 232, 1))";
+    document.getElementById("menfess").style.backgroundImage = 'linear-gradient(rgba(255, 219, 0, 1),rgba(150, 255, 0, 1))';
+  }
+});
+
+function Alert() {
+  Swal.fire(
+    '',
+    'Gatau Lupa',
+    'question'
+  )
+}
+</script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
