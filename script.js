@@ -128,120 +128,120 @@ toggle.addEventListener('click', function() {
 });
 function Alert() {
   Swal.fire(
-    'ADA TUGAS!',
+    'GAK ADA TUGAS!',
     'Gatau Lupa',
-    ''
+    'error'
 )
 }
 function pai() {
   Swal.fire(
-    'ADA TUGAS!',
-    'Gatau Lupa<br>Keterangan:<br>',
-    ''
+    'GAK ADA TUGAS!',
+    'senang sekali tidak ada tugas<br>Keterangan:<br>',
+    'error'
 )
 }
 function indo() {
   Swal.fire(
-    'ADA TUGAS!',
-    'Gatau Lupa<br>Keterangan:<br>',
-    ''
+    'GAK ADA TUGAS!',
+    'senang sekali tidak ada tugas<br>Keterangan:<br>',
+    'error'
 )
 }
 function eko() {
   Swal.fire(
-    'ADA TUGAS!',
-    'Gatau Lupa<br>Keterangan:<br>',
-    ''
+    'GAK ADA TUGAS!',
+    'senang sekali tidak ada tugas<br>Keterangan:<br>',
+    'error'
 )
 }
 function senbud() {
   Swal.fire(
-    'ADA TUGAS!',
-    'Gatau Lupa<br>Keterangan:<br>',
-    ''
+    'GAK ADA TUGAS!',
+    'senang sekali tidak ada tugas<br>Keterangan:<br>',
+    'error'
 )
 }
 function fisika() {
   Swal.fire(
-    'ADA TUGAS!',
-    'Gatau Lupa<br>Keterangan:<br>',
-    ''
+    'GAK ADA TUGAS!',
+    'senang sekali tidak ada tugas<br>Keterangan:<br>',
+    'error'
 )
 }
 function kimia() {
   Swal.fire(
-    'ADA TUGAS!',
-    'Gatau Lupa<br>Keterangan:<br>',
-    ''
+    'GAK ADA TUGAS!',
+    'senang sekali tidak ada tugas<br>Keterangan:<br>',
+    'error'
 )
 }
 function tik() {
   Swal.fire(
-    'ADA TUGAS!',
-    'Gatau Lupa<br>Keterangan:<br>',
-    ''
+    'GAK ADA TUGAS!',
+    'senang sekali tidak ada tugas<br>Keterangan:<br>',
+    'error'
 )
 }
 function inggris() {
   Swal.fire(
-    'ADA TUGAS!',
-    'Gatau Lupa<br>Keterangan:<br>',
-    ''
+    'GAK ADA TUGAS!',
+    'senang sekali tidak ada tugas<br>Keterangan:<br>',
+    'error'
 )
 }
 function sunda() {
   Swal.fire(
-    'ADA TUGAS!',
-    'Gatau Lupa<br>Keterangan:<br>',
-    ''
+    'GAK ADA TUGAS!',
+    'senang sekali tidak ada tugas<br>Keterangan:<br>',
+    'error'
 )
 }
 function sejwa() {
   Swal.fire(
-    'ADA TUGAS!',
-    'Gatau Lupa<br>Keterangan:<br>',
-    ''
+    'GAK ADA TUGAS!',
+    'senang sekali tidak ada tugas<br>Keterangan:<br>',
+    'error'
 )
 }
 function matwa() {
   Swal.fire(
-    'ADA TUGAS!',
-    'Gatau Lupa<br>Keterangan:<br>',
-    ''
+    'GAK ADA TUGAS!',
+    'senang sekali tidak ada tugas<br>Keterangan:<br>',
+    'error'
 )
 }
 function matmin() {
   Swal.fire(
-    'ADA TUGAS!',
-    'Gatau Lupa<br>Keterangan:<br>',
-    ''
+    'GAK ADA TUGAS!',
+    'senang sekali tidak ada tugas<br>Keterangan:<br>',
+    'error'
 )
 }
 function pjok() {
   Swal.fire(
-    'ADA TUGAS!',
-    'Gatau Lupa<br>Keterangan:<br>',
-    ''
+    'GAK ADA TUGAS!',
+    'senang sekali tidak ada tugas<br>Keterangan:<br>',
+    'error'
 )
 }
   function sejmin() {
   Swal.fire(
     'ADA TUGAS!',
     'Presentasi Tradisi lisan Bagi yang belum<br>Keterangan:<br>',
-    ''
+    'success'
   )
 }
 function bio() {
   Swal.fire(
     'ADA TUGAS!',
     'Uji Kompetisi Bab 4,Pilihan Ganda no 1-20 dengan essai no 1-5<br>keterangan:<br>Hanya menulis jawaban saja',
-    ''
+    'success'
   )
 }
 function pkwu() {
   Swal.fire(
     'ADA TUGAS!',
     'Rangkum Bab III dari halaman 65 sampai dengan 72<br>Keterangan:<br>',
-    ''
+    'success'
   )
 }
