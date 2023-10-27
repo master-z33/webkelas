@@ -142,9 +142,9 @@ function pai() {
 }
 function indo() {
   Swal.fire(
-    'ADA TUGAS!',
-    'Presentasi Bagi Kelompok 4&5<br>Keterangan:<br>10 menit sebelum mulai presentasi dan sebelum guru datang ke kelas pastikan semua persiapan terpasang dg baik infocus, Laptop, powerpoint<br>Setiap kelompok tidak harus membawa laptop, perwakilan saja di kelas Masing-masing. Yang terpenting setiap kelompok membawa soft file di dalam flashdisk/HP serta hardcopy utk dipresentasikan dan dibagikan ke kelompok lainnya.',
-    'success'
+'GAK ADA TUGAS!',
+    'senang sekali tidak ada tugas<br>Keterangan:<br>',
+    'error'
 )
 }
 function eko() {
