@@ -149,16 +149,16 @@ function indo() {
 }
 function eko() {
   Swal.fire(
-    'GAK ADA TUGAS!',
-    'senang sekali tidak ada tugas<br>Keterangan:<br>',
-    'error'
+    'ADA TUGAS!',
+    'Merangkum Bab 3 Dan 4<br>Keterangan:<br>Ambil Yang penting-penting saja',
+    'success'
 )
 }
 function senbud() {
   Swal.fire(
-    'GAK ADA TUGAS!',
-    'senang sekali tidak ada tugas<br>Keterangan:<br>',
-    'error'
+    'ADA TUGAS!',
+    'Merangkum Bab 1 dan Bab 2 tentang Seni rupa 2 dimensi dan 3 dimensi<br>Keterangan:<br>',
+    'success'
 )
 }
 function fisika() {
@@ -170,9 +170,9 @@ function fisika() {
 }
 function kimia() {
   Swal.fire(
-    'GAK ADA TUGAS!',
-    'senang sekali tidak ada tugas<br>Keterangan:<br>',
-    'error'
+    'ADA TUGAS!',
+    'menulis yang ibu kirimkan lewat Rahmat<br>Keterangan:<br>poto bisa minta kerahmat/tanyakan digrup',
+    'success'
 )
 }
 function tik() {
@@ -205,9 +205,9 @@ function sejwa() {
 }
 function matwa() {
   Swal.fire(
-    'GAK ADA TUGAS!',
-    'senang sekali tidak ada tugas<br>Keterangan:<br>',
-    'error'
+    'ADA TUGAS!',
+    'menulis sinopsis buku yang telah dibaca<br>Keterangan:<br>Kamis dipresentasikan',
+    'success'
 )
 }
 function matmin() {
@@ -234,7 +234,7 @@ function pjok() {
 function bio() {
   Swal.fire(
     'ADA TUGAS!',
-    'Uji Kompetisi Bab 4,Pilihan Ganda no 1-20 dengan essai no 1-5<br>keterangan:<br>Hanya menulis jawaban saja',
+    'Uji Kompetisi Bab 4,Pilihan Ganda no 1-20 dengan essai no 1-5<br>keterangan:<br>Hanya menulis jawaban saja<br><br>Presentasi Bagi Kelompok Bakteri dan protozoa(jika sempat)',
     'success'
   )
 }
