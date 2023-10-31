@@ -234,14 +234,14 @@ function pjok() {
 function bio() {
   Swal.fire(
     'ADA TUGAS!',
-    'Uji Kompetisi Bab 4,Pilihan Ganda no 1-20 dengan essai no 1-5<br>keterangan:<br>Hanya menulis jawaban saja<br><br>Presentasi Bagi Kelompok Bakteri dan protozoa(jika sempat)',
+    'Uji Kompetisi Bab 4,Pilihan Ganda no 1-20 dengan essai no 1-5<br>keterangan:<br>Hanya menulis jawaban saja<br><br>Presentasi Bagi Kelompok protozoa',
     'success'
   )
 }
 function pkwu() {
   Swal.fire(
     'ADA TUGAS!',
-    'Rangkum Bab III dari halaman 65 sampai dengan 72<br>Keterangan:<br>',
+    'Mengisi Tabel Yang Ada dihalaman 73<br>Keterangan:<br>Harus ada 10 nomor',
     'success'
   )
 }
