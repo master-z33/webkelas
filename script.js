@@ -198,9 +198,9 @@ function sunda() {
 }
 function sejwa() {
   Swal.fire(
-    'GAK ADA TUGAS!',
-    'senang sekali tidak ada tugas<br>Keterangan:<br>',
-    'error'
+    'ADA TUGAS!',
+    'Presentasi bagi kelompok 1<br>Keterangan:<br>Kelompok 2 menyiapkan moderator dan dokumentasi untuk kelompok 1',
+    'success'
 )
 }
 function matwa() {
